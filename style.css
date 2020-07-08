@@ -1,0 +1,91 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    font-weight: 400;
+    font-size: 1em;
+}
+#squareCan{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    background-color: darkblue;
+    left: 0;
+}
+#container{
+    width: auto;
+    height: auto;
+    position: relative;
+    background-color: lightgrey;
+    overflow: auto;
+    transition: height .25s ease-out, width .25s ease-out, top .25s ease-out;
+}
+#nameContainer{
+    font-family: "Times Roman";
+    box-sizing: border-box;
+    position: absolute;
+    text-align: center;
+    padding: 15px;
+}
+#name{
+    display: inline-block;
+}
+#profile{
+    margin-left: auto;
+    margin-right: auto;
+    width:150px;
+    height:180px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: inherit;
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 100%;
+}
+.visibile{
+    display: block;
+    transition: .25s;
+}
+.invisible{
+    display: none;
+    transition: .25s;
+}
+
+.artpic{
+    width: 400px;
+}
+
+.titleLink{
+    color: black;
+}
+article{
+    padding: 10px;
+}
+h1{
+    font-size: 3em;
+    font-weight: 500;
+    padding-top: 0;
+    margin-bottom: 5px;
+}
+li{
+    display: inline-block;
+    padding-right: 5px;
+    font-size: 1.25em;
+}
+ul{
+    padding: 0;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+p{
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+a{
+    color: dimgrey;
+    transition: .2s;
+}
+a:hover{
+    color: black;
+}

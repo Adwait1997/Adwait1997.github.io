@@ -1,0 +1,113 @@
+<head>
+    <title> Adwait's Portfolio</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Content-Lanugage" content="en-us">
+    <meta name="description" content="Personal homepage">
+    <meta name="keywords" content="Adwait Naik">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="pics/.png" type="image/png">
+    <link rel="shortcut icon" href="pics/bot.png" type="image/png">
+    <link rel="icon" href="pics/bot.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="pics/bot.ico" type="image/x-icon">
+    <link href='style.css' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:300,500' rel='stylesheet' type='text/css'>
+    <script src="scripts/squares.js"></script>
+    <script src="scripts/main.js"></script> 
+</head>
+ <body>
+ <div id="container">
+    <div id="nameContainer" >
+        <div id="name">
+            <img src="pics/profile.jpg"id="profile"></img>
+            <h1>Adwait Naik</h1>
+            <ul>
+                <a href="#"><li> Home </li></a>     
+                <a href="#Projects"><li> Projects </li></a>
+                <a href="https://github.com/addy1997"> <li> Github </li></a>
+                <a href="https://www.linkedin.com/in/adwait-naik-86586514a/"><li> Linkedin </li></a>
+                <a href="mailto:adwaitnaik2@gmail.com"><li> Email </li></a>
+                <a href="https://medium.com/@adwaitnaik2"><li> Medium </li></a>
+                <a href="https://drive.google.com/file/d/1qNyCPirhmOFppb4OFTKFtz642Q7PbGVL/view?usp=sharing"><li> CV </li></a>
+            </ul> 
+        </div>
+        <div id="blurb" class="invisible">
+            <p> Hi, I am Adwait, an <strong>Electronics engineer</strong> by profession with a knack for learning to program intelligent maachines. 
+                A roboticist by choice and <strong>guitarist</strong> in leisure time, I like to learn new languages(I already can speak 7) and do speed cubing when I am not 
+                punching keys on my computer. 
+                
+                Previously, I worked at <strong>HTIC, IIT-Madras</strong> with the Spine Robotics team on an amazing project based on <strong>Image Guided Surgery (IGS)</strong>
+                for the <strong>UR5</strong> robotic arm. 
+                
+                Previous to that, I was a summer fellow at <strong>CVIT, IIIT-H</strong>. In my sophomore year, I worked as robotics intern at KUKA, India along with the team 
+                of few engineers from ISRO on developing motion planning algorithms for robotic arms. 
+                
+                Currently, I am waiting to join my <strong>master's</strong> at <strong>University of Bristol</strong> in <strong>Robotics</strong>.
+            <p>
+        </div>
+        <div id="projects" class="invisible">
+            <p>
+                This section has most of my projects listed on which I worked during my internships and course of study. 
+            </p>
+            <article>
+                <h1> Kinodynamic RRT </h1>
+                <div class="content">
+                    <img src='pics/kinodynamic_rrt.png' class='artpic'>
+                    <p>
+                        In this project, we developed a <strong>kinodynamic</strong> planner for the RRT algorithms based on ROS. It was tested and visualized in rviz.
+                        The algorithm has improved time complexity, i.e., it takes less time to trace the <strong>shortest collision-free</strong> path. 
+                        <a href="https://github.com/addy1997/Kinodynamic-Fast_RRT-ROS"> Kinodynamic RRT </a>,
+                    </p>
+                </div>
+                <div style="clear: both"></div>
+            </article>            
+            <article>
+                <a href=https://github.com/addy1997/RL-Algorithms class = "titleLink"><h1> RL Algorithms </h1></a>
+                <div class="content">
+                    <img src='pics/rl_algorithms.png' class='artpic'>
+                    <p>
+                        This is collection of all the RL-algorithms. The project aims at developing an easy to use library for reinforcement learning algorithms
+                        like SARSA, Q-learning, etc.
+                    </p>
+                </div>
+                <div style="clear: both"></div>
+            </article>
+            <article>
+                <a href=https://github.com/addy1997/python-RRT class = "titleLink"><h1> python-RRT </h1></a>
+                <div class="content">
+                    <img src='pics/py-rrt2.png' class='artpic'>
+                    <p>
+                        Developed as an individual project, it is collection of all the motion planning algorithms written purely written in python like RRT, PRM, etc.
+                        It also has the source code for the program we developed at <strong>HTIC, IIT-Madras</strong> for acquiring data like joint angle, joint velocitites, etc from the UR5 robot.
+                        Some basic coding exercises based on <strong>ROS</strong> are also included in this repository.
+                    </p>
+                </div>
+                <div style="clear: both"></div>
+            </article>
+            <article>
+                <a href=https://github.com/openai/gym class = "titleLink"><h1> OpenAI-gym </h1></a>
+                <div class="content">
+                    <img src='pics/openAI-gym.png' class = 'artpic'>
+                    <p>
+                       This is one of my favorite projects to work. Of course, this is not my repository but an opensource project by <strong>OpenAI</strong>. 
+                       Basically, it is an environment that helps in rendering proper functionality to reinforcement learning algorithms like SARSA, Monte Carlo, 
+                       Q-learning. Recently, I have made my first commit to this repository by adding the Gridworld environment. 
+                       <a href="https://github.com/addy1997/Gridworld"> Gridworld </li></a>
+                    </p>
+                </div>
+                <div style="clear: both"></div>
+            </article>
+            <article>
+                <h1> Py-robotics: A minimalistic python library </h1>
+                <a href =https://github.com/addy1997/py-robotics ><img src="pics/pyrobotics.png" class = "artpic"></a>
+                <div class="content">
+                    <p>
+                        Created a light weight python module that has robotic algorithms implemented with reinforcement learning concepts.
+                    </p>
+                </div>
+                <div style="clear: both"></div>
+            </article>
+        </div>
+    </div>
+ </div>
+    <canvas id="squareCan" class="moveMe"></canvas>
+ </body>
