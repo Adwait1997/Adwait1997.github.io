@@ -9,7 +9,7 @@ body{
     position: absolute;
     top: 0;
     z-index: -1;
-    background-color: dimgrey;
+    background-color: brown;
     left: 0;
 }
 #container{
